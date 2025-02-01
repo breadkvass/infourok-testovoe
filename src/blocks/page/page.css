@@ -1,0 +1,54 @@
+:root {
+    --background-pink: #FFF3F5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.main {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    font-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    font-family: "Open Sans", serif;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .main {
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: calc(100% - 20px);
+    }
+}

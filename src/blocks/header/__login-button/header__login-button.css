@@ -10,3 +10,7 @@
     line-height: 17px;
     font-weight: 600;
 }
+
+.header__login-button:hover {
+    background-color: #FFDE00;
+}

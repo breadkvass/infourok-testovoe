@@ -22,14 +22,10 @@ module.exports = {
   module: {
     rules: [
         {
-            test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-            use: ['svg-inline-loader'],
-        },
-        {
             test: /\.css$/, use: [ 'style-loader', 'css-loader' ]
         },
         {
-            test: /\.(png|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+            test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
             type: 'asset/resource',
         },
         

@@ -1,0 +1,12 @@
+.header__login-button {
+    margin-left: auto;
+    padding: 0 25px 0 25px;
+    border: 1px solid #FFDE00;
+    background-color: white;
+    height: 50px;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+}

@@ -1,3 +1,14 @@
 @import url(./vendor/fonts.css);
 
 @import url(./blocks/page/page.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__login-button/header__login-button.css);
+@import url(./blocks/header/__logo-img/header__logo-img.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__stage-container/header__stage-container.css);
+@import url(./blocks/header/__stage-deadline/header__stage-deadline.css);
+@import url(./blocks/header/__stage-deadline/header__stage-deadline_highlighted.css);
+@import url(./blocks/header/__stage/header__stage.css);
+@import url(./blocks/header/__stages/header__stages.css);
+@import url(./blocks/header/__title/header__title.css);

@@ -15,6 +15,29 @@
 </head>
 <body class="page" id="root">
     <header class="header" id="header">
+      <div class="header__logo">
+        <img class="header__logo-img" src="<%=require('./vendor/assets/images/logo.svg')%>" alt="Логотип"/>
+        <h3 class="header__title">Логотип</h3>
+      </div>
+      <ul class="header__stages">
+        <li class="header__stage-container">
+          <p class="header__stage">Прием заявок</p>
+          <p class="header__stage-deadline">до<span class="header__stage-deadline_highlighted"> 11 </span>марта</p>
+        </li>
+        <li class="header__stage-container">
+          <p class="header__stage">Получение заданий</p>
+          <p class="header__stage-deadline"><span class="header__stage-deadline_highlighted">4 </span>марта</p>
+        </li>
+        <li class="header__stage-container">
+          <p class="header__stage">Внесение ответов</p>
+          <p class="header__stage-deadline">до<span class="header__stage-deadline_highlighted"> 18 </span>марта</p>
+        </li>
+        <li class="header__stage-container">
+          <p class="header__stage">Итоги конкурса</p>
+          <p class="header__stage-deadline"><span class="header__stage-deadline_highlighted"> 19 </span>марта</p>
+        </li>
+      </ul>
+      <button class="header__login-button">Вход в кабинет</button>
     </header>
     <main class="main">
     </main>

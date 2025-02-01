@@ -1,0 +1,6 @@
+.info__content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: max-content;
+}

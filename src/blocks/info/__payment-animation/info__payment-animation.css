@@ -1,0 +1,44 @@
+.info__payment-animation {
+    position: absolute;
+    top: 60px;
+    left: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: #FF885E;
+    width: 62px;
+    height: 62px;
+}
+
+
+.info__payment-animation::before,
+.info__payment-animation::after {
+    content: '';
+    position: absolute;
+    border: 1px solid #FF885E;
+    left: -13px;
+    opacity: 0;
+    right: -13px;
+    top: -13px;
+    bottom: -13px;
+    border-radius: 50%;
+    animation: pulse 2.5s linear infinite;
+}
+
+.info__payment-animation::after {
+    animation-delay: 1.25s;
+  }
+
+@keyframes pulse {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+  

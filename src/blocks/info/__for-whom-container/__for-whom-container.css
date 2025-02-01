@@ -1,0 +1,7 @@
+.info__for-whom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-left: 3px solid #FF885E;
+    padding-left: 16px;
+}

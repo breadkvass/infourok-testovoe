@@ -12,9 +12,6 @@ html {
     margin: 0 auto;
     color: white;
 }
-/* 
-.main {
-} */
 
 a {
     color: black;
@@ -37,6 +34,18 @@ ul {
 }
 
 p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
     margin: 0;
 }
 

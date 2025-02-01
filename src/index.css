@@ -12,3 +12,21 @@
 @import url(./blocks/header/__stage/header__stage.css);
 @import url(./blocks/header/__stages/header__stages.css);
 @import url(./blocks/header/__title/header__title.css);
+
+@import url(./blocks/main/main.css);
+
+@import url(./blocks/info/info.css);
+@import url(./blocks/info/__content/info__content.css);
+@import url(./blocks/info/__for-whom-container/__for-whom-container.css);
+@import url(./blocks/info/__for-whom-title/info__for-whom-title.css);
+@import url(./blocks/info/__for-whom/info__for-whom.css);
+@import url(./blocks/info/__join-button/info__join-button.css);
+@import url(./blocks/info/__join/info__join.css);
+@import url(./blocks/info/__payment-title/info__payment-title.css);
+@import url(./blocks/info/__payment-value/info__payment-value.css);
+@import url(./blocks/info/__payment/info__payment.css);
+@import url(./blocks/info/__payment-animation/info__payment-animation.css);
+@import url(./blocks/info/__possibilities/info__possibilities.css);
+@import url(./blocks/info/__possibility/info__possibility.css);
+@import url(./blocks/info/__title/info__title.css);
+@import url(./blocks/info/__title/info__title_highlighted.css);

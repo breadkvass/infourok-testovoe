@@ -1,0 +1,11 @@
+.info__join-button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    padding: 0 25px;
+    height: 60px;
+    border-radius: 4px;
+    box-shadow: 0px -2px 2px 0px #00000040 inset;
+    box-shadow: 0px 0px 30px 0px #FFDE0059;
+    background-color: #FFDE00;
+}

@@ -5,9 +5,15 @@ html {
 .page {
     font-family: "Open Sans", serif;
     margin: 0 auto;
+    padding-top: 20px;
     font-weight: 400;
-    height: 100vh;
-    background: linear-gradient(90deg, #8159C6 0%, #6C7CFF 100%);
+    height: calc(100vh - 20px);
+    background: 
+        url(../../vendor/assets/icons/background-triangle.svg) right 0 bottom -1px / 100% auto no-repeat,
+        url(../../vendor/assets/images/main-photo.png) right calc((100% - 750px)/2) bottom 60px / 523px 532px no-repeat,
+        url(../../vendor/assets/icons/target-icon.svg) right calc((100% - 860px)/2) bottom 60px / auto 615px no-repeat,
+        url(../../vendor/assets/icons/background-elements.svg) top 112px left calc((100% - 1318px)/2) / 318px 515px no-repeat,
+        linear-gradient(90deg, #8159C6 0%, #6C7CFF 100%);
     max-width: 1225px;
     margin: 0 auto;
     color: white;

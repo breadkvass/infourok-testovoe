@@ -1,7 +1,7 @@
 {
     "name": "infourok-testovoe",
     "version": "1.0.0",
-    "description": " Тестовое задание для Infourok",
+    "description": "Тестовое задание для Infourok",
     "main": "index.js",
     "scripts": {
         "start": "webpack serve",

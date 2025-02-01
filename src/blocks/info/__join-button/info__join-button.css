@@ -9,3 +9,7 @@
     box-shadow: 0px 0px 30px 0px #FFDE0059;
     background-color: #FFDE00;
 }
+
+.info__join-button:hover {
+    box-shadow: 0px -2px 2px 0px #00000040 inset;
+}

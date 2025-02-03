@@ -7,7 +7,8 @@ html {
     margin: 0 auto;
     padding-top: 20px;
     font-weight: 400;
-    height: calc(100vh - 20px);
+    min-height: calc(100vh - 20px);
+    height: calc(100% - 20px);
     background: 
         url(../../vendor/assets/icons/background-triangle.svg) right 0 bottom -1px / 100vw auto no-repeat,
         url(../../vendor/assets/images/main-photo.png) right calc((100% - 750px)/2) bottom 60px / 523px 532px no-repeat,
@@ -58,6 +59,11 @@ h3 {
 @media screen and (max-width: 768px) {
     .page {
         width: calc(100% - 16px);
-        padding-top: 13px;
+        height: calc(100% - 20px);
+        padding: 13px 0 41px 0;
+        background: 
+        url(../../vendor/assets/icons/background-triangle.svg) right 0 bottom -1px / 100% auto no-repeat,
+        url(../../vendor/assets/images/main-photo.png) right -130px bottom 25px / 236px 240px no-repeat,
+        linear-gradient(90deg, #8159C6 0%, #6C7CFF 100%);
     }
 }

@@ -29,16 +29,38 @@
   }
 
 @keyframes pulse {
-    0% {
-      transform: scale(0.5);
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      transform: scale(1.2);
-      opacity: 0;
-    }
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
   }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
   
+
+@media screen and (max-width: 768px) {
+  .info__payment-animation {
+    top: -28px;
+    left: 22px;
+  }
+
+  .info__payment-animation::before,
+  .info__payment-animation::after {
+    left: -17px;
+    opacity: 0;
+    right: -17px;
+    top: -17px;
+    bottom: -17px;
+    border-radius: 50%;
+    animation: pulse 2s linear infinite;
+  }
+
+  .info__payment-animation::after {
+    animation-delay: 1s;
+  }
+}

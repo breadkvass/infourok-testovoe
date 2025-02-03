@@ -4,3 +4,12 @@
     line-height: 57.6px;
     width: 530px;
 }
+
+@media screen and (max-width: 768px) {
+    .info__title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+    }
+}

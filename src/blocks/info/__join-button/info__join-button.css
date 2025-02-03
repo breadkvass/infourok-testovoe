@@ -13,3 +13,11 @@
 .info__join-button:hover {
     box-shadow: 0px -2px 2px 0px #00000040 inset;
 }
+
+@media screen and (max-width: 768px) {
+    .info__join-button {
+        margin-top: 60px;
+        width: max-content;
+        align-self: center;
+    }
+}

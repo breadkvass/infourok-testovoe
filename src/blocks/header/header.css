@@ -4,3 +4,12 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 24px;
+    }
+}

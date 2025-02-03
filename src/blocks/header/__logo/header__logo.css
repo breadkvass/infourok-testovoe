@@ -5,3 +5,9 @@
     flex-direction: row;
     gap: 8px;
 }
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        order: 0;
+    }
+}

@@ -1,6 +1,6 @@
 .header__login-button {
     margin-left: auto;
-    padding: 0 25px 0 25px;
+    padding: 0 25px;
     border: 1px solid #FFDE00;
     background-color: white;
     height: 50px;
@@ -13,4 +13,12 @@
 
 .header__login-button:hover {
     background-color: #FFDE00;
+}
+
+@media screen and (max-width: 768px) {
+    .header__login-button {
+        order: 1;
+        padding: 0 20px;
+        height: 40px;
+    }
 }

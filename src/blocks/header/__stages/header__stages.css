@@ -1,15 +1,36 @@
 .header__stages {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 64px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1240px) {
+    .header__stages {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__stages {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .header__stages {
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: 629px) {
     .header__stages {
         order: 2;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        gap: 0;
+        column-gap: 40px;
+        row-gap: 24px;
+        margin: 0 auto;
     }
 }

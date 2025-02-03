@@ -1,12 +1,11 @@
 .header__logo {
-    margin-right: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 8px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 629px) {
     .header__logo {
         order: 0;
     }

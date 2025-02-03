@@ -2,12 +2,24 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1240px) {
     .header {
         width: 100%;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .header {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    .header {
         flex-wrap: wrap;
         justify-content: space-between;
         row-gap: 24px;

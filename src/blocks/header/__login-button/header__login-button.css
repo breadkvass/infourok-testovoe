@@ -1,5 +1,4 @@
 .header__login-button {
-    margin-left: auto;
     padding: 0 25px;
     border: 1px solid #FFDE00;
     background-color: white;
@@ -15,10 +14,15 @@
     background-color: #FFDE00;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .header__login-button {
-        order: 1;
         padding: 0 20px;
         height: 40px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    .header__login-button {
+        order: 1;
     }
 }
